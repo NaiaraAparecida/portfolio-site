@@ -4,8 +4,8 @@ Site pessoal e portfólio de **Front-end & UX/UI**.
 Projeto estático (HTML/CSS/JS) com **carrossel de projetos**, **seção de clientes** e **formulário de contato via EmailJS**.
 
 ## ☁️ Deploy
-- **Site:** 
-- **GitHub Pages:**
+- **Site:** https://portfolio-site-naiara.netlify.app/
+- **GitHub Pages:** https://naiaraaparecida.github.io/portfolio-site/
 
 ---
 
