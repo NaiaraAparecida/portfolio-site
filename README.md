@@ -3,17 +3,6 @@
 Site pessoal e portfólio de **Front-end & UX/UI**.  
 Projeto estático (HTML/CSS/JS) com **carrossel de projetos**, **seção de clientes** e **formulário de contato via EmailJS**.
 
-<p align="left">
-  <a href="#deploy">Deploy</a> •
-  <a href="#recursos">Recursos</a> •
-  <a href="#tecnologias">Tecnologias</a> •
-  <a href="#estrutura-de-pastas">Estrutura</a> •
-  <a href="#configuracoes">Configurações</a> •
-  <a href="#contribuindo">Contribuindo</a> •
-  <a href="#contato">Contato</a> •
-  <a href="#rodando-local">Rodando local</a>
-</p>
-
 ## ☁️ Deploy
 - **Site:** 
 - **GitHub Pages:**
@@ -91,5 +80,6 @@ cd portfolio-site
 # (dica) com VS Code:
 code .
 # use a extensão "Live Server" ou apenas clique 2x no index.html
+
 
 
