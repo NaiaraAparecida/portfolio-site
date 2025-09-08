@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------- Unicons---------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
+
+    <!------------- CSS ---------------->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!------------- Favicon ---------------->
+    <link rel="shortcut icon" href="./assets/img/Logo.png" type="image/x-icon">
+    <title>Portfólio – Naiara Cruz | Front‑end & UX/UI</title>
+    <meta name="description"
+        content="Portfólio de Naiara Cruz: Front‑end & UX/UI. Projetos em React, React Native, Design System e dashboards (Power BI).">
+    <meta name="author" content="Naiara Cruz">
+    <meta property="og:title" content="Portfólio – Naiara Cruz">
+    <meta property="og:description" content="Front‑end & UX/UI • React • React Native • Design System • Power BI">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./assets/img/FotoPerfil.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav id="header" aria-label="Navegação principal">
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link" aria-current="page">Início</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#clients" class="nav-link">Clientes</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a class="btn" href="./assets/cv/Curriculo_NaiaraCruz.pdf" download>Download CV <i
+                        class="uil uil-file-download"></i>
+                </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!------------- Main ---------------->
+        <main class="wrapper">
+            <!------------- Featured Box ---------------->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Naiara Cruz</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Eu sou <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Desenvolvo interfaces digitais rápidas, acessíveis e centradas no usuário, unindo design e
+                            tecnologia para transformar ideias em soluções funcionais, criativas e estratégicas.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <a class="btn blue-btn" href="#contact">Contrate-me</a>
+                        <a class="btn" href="./assets/cv/Curriculo_NaiaraCruz.pdf" download>
+                            Download CV <i class="uil uil-file-download"></i>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <a class="icon" href="https://www.linkedin.com/in/naiara-cruz" target="_blank" rel="noopener"
+                            aria-label="LinkedIn da Naiara">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a class="icon" href="https://github.com/NaiaraAparecida" target="_blank" rel="noopener"
+                            aria-label="GitHub da Naiara">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a class="icon" href="https://difficult-index-c70.notion.site/naiara-portfolio?source=copy_link"
+                            target="_blank" rel="noopener" aria-label="Portfólio detalhado">
+                            <i class="uil uil-folder-open"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./assets/img/FotoPerfil.jpg" alt="Foto de Perfil">
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Ver mais</p>
+                    </a>
+                </div>
+            </section>
+            <!------------- About Box ---------------->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Sobre</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Um pouco sobre mim</h3>
+                            <p>Sou desenvolvedora Front-end e UX/UI Designer.
+                                Transformo problemas de negócio em interfaces simples, acessíveis e rápidas — do Figma
+                                ao código.
+                                Trabalho com React/React Native, JavaScript/TypeScript e Design Systems. Já atuei em
+                                projetos para Verzani & Sandrini, Smiles, GOL e Unlimit.
+                            </p>
+                            <div class="about-btn">
+                                <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Front-End</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>TypeScript</span>
+                                <span>Bootstrap</span>
+                                <span>React</span>
+                                <span>React Native</span>
+                                <span>Acessibilidade (WCAG)</span>
+                                <span>Design System</span>
+                                <span>Figma (UI/Prototipação)</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Back-End</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Python</span>
+                                <span>Java</span>
+                                <span>Spring Boot</span>
+                                <span>SQL</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Ferramentas & Processos</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>Jira</span>
+                                <span>Scrum</span>
+                                <span>Kanban</span>
+                                <span>Agilidade</span>
+                                <span>Confluence</span>
+                                <span>Notion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!------------- Projects Box ---------------->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+
+                <div class="project-container">
+                    <div class="projects-carousel" aria-label="Carrossel de projetos">
+                        <button class="proj-arrow prev" aria-label="Projeto anterior" title="Anterior">
+                            <i class="uil uil-angle-left"></i>
+                        </button>
+
+                        <div class="projects-viewport">
+                            <div class="projects-track" id="projectsTrack">
+
+                                <!-- VS Analytics -->
+                                <article class="project-box project-card is-featured">
+                                    <h3>VS Analytics</h3>
+                                    <p class="project-desc">
+                                        Redesenho da navegação e help in-product em dashboards corporativos.
+                                        <strong>Resultado:</strong> +28% usuários ativos mensais e +15% cliques em
+                                        painéis-chave (90 dias).
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>Power BI</span><span>UX de navegação</span><span>WCAG</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn"
+                                            href="https://difficult-index-c70.notion.site/Analytics-Plataforma-Estrat-gica-de-Dashboards-24c24ea3e70780358bd7e1e0a69a08e3?source=copy_link"
+                                            target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <!-- Iara Games  -->
+                                <article class="project-box project-card">
+                                    <h3>Iara Games</h3>
+                                    <p class="project-desc">
+                                        Plataforma brasileira para divulgação de jogos indie, com catálogo, busca e
+                                        filtros em JavaScript
+                                        consumindo dados em JSON. Inclui base para painel simples de administração
+                                        (CRUD) e layout 100% responsivo.
+                                        <strong>Resultado:</strong> MVP publicado e pronto para evoluir com listas,
+                                        favoritos e métricas de acesso.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>JSON</span><span>UX/UI</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn"
+                                            href="https://difficult-index-c70.notion.site/Iara-Games-15c24ea3e70780ad9175e982751898f4?source=copy_link"
+                                            target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/iara-games"
+                                            target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://iara-games.netlify.app/" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <!-- ReUse! -->
+                                <article class="project-box project-card">
+                                    <h3>ReUse</h3>
+                                    <p class="project-desc">
+                                        Marketplace sustentável com login persistente, filtros e busca refinada.
+                                        <strong>Resultado:</strong> MVP validado em PBL com foco em acessibilidade e
+                                        usabilidade.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>React Native</span><span>AsyncStorage</span><span>Acessibilidade</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn" href="https://difficult-index-c70.notion.site/ReUse-26724ea3e707800cb574cb356491738b?source=copy_link" target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/reuse" target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="#" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                                <!-- ReagePlus -->
+                                <article class="project-box project-card">
+                                    <h3>ReagePlus</h3>
+                                    <p class="project-desc">
+                                        App de resposta a desastres com relatos geolocalizados, SOS offline e
+                                        comunicação P2P (BLE/Wi-Fi).
+                                        <strong>Resultado:</strong> MVP funcional validado em simulação de desastre.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>React Native</span><span>Maps</span><span>BLE</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn" href="https://difficult-index-c70.notion.site/ReagePlus-24d24ea3e7078061b757db01b9f0b5bf?source=copy_link" target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/reage-plus" target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="#" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+
+                                <!-- Carbon -->
+                                <article class="project-box project-card">
+                                    <h3>Carbon</h3>
+                                    <p class="project-desc">
+                                        Biblioteca de componentes com tokens, variantes e documentação centralizada.
+                                        <strong>Resultado:</strong> redução de 20% no tempo médio de entrega de telas e
+                                        maior padronização.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>React</span><span>Storybook</span><span>Design Tokens</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn" href="https://difficult-index-c70.notion.site/Carbon-24d24ea3e7078057b22ff53a1cde7c51?source=copy_link" target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/carbon" target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="#" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                                <!-- Amai Amai -->
+                                <article class="project-box project-card">
+                                    <h3>Amai Amai</h3>
+                                    <p class="project-desc">
+                                        Biblioteca de componentes com tokens, variantes e documentação centralizada.
+                                        <strong>Resultado:</strong> redução de 20% no tempo médio de entrega de telas e
+                                        maior padronização.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>React</span><span>Storybook</span><span>Design Tokens</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn" href="https://difficult-index-c70.notion.site/Amai-Amai-24c24ea3e70781c7b1c6e392f013b17c?source=copy_link" target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/amai-amai" target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="#" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                                <!-- EduFit -->
+                                <article class="project-box project-card">
+                                    <h3>EduFit</h3>
+                                    <p class="project-desc">
+                                        Biblioteca de componentes com tokens, variantes e documentação centralizada.
+                                        <strong>Resultado:</strong> redução de 20% no tempo médio de entrega de telas e
+                                        maior padronização.
+                                    </p>
+                                    <div class="project-tags">
+                                        <span>React</span><span>Storybook</span><span>Design Tokens</span>
+                                    </div>
+                                    <div class="project-actions">
+                                        <a class="btn blue-btn" href="https://difficult-index-c70.notion.site/EduFit-24d24ea3e707805283d2c920c0fd3651?source=copy_link" target="_blank">
+                                            Estudo de caso <i class="uil uil-file-alt"></i>
+                                        </a>
+                                        <a class="btn" href="https://github.com/NaiaraAparecida/edufit" target="_blank">
+                                            GitHub <i class="uil uil-github-alt"></i>
+                                        </a>
+                                        <a class="btn" href="#" target="_blank">
+                                            Site <i class="uil uil-globe"></i>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <button class="proj-arrow next" aria-label="Próximo projeto" title="Próximo">
+                            <i class="uil uil-angle-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!------------- Clients Box ---------------->
+            <section class="section" id="clients">
+                <div class="top-header">
+                    <h1>Clientes</h1>
+                    <span>Algumas empresas com as quais já atuei</span>
+                </div>
+
+                <div class="clients-carousel" aria-label="Carrossel de clientes">
+                    <button class="cli-arrow prev" aria-label="Clientes anteriores" title="Anterior">
+                        <i class="uil uil-angle-left"></i>
+                    </button>
+
+                    <div class="clients-viewport">
+                        <div class="clients-track" id="clientsTrack">
+                            <div class="client-card" title="VS: Dashboards corporativos no Power BI">
+                                <img src="./assets/img/LogoVerzani.png" alt="Verzani & Sandrini">
+                            </div>
+                            <div class="client-card" title="Smiles – Projetos de automação e UX de dados">
+                                <img src="./assets/img/smiles-logo.png" alt="Smiles">
+                            </div>
+                            <div class="client-card" title="GOL Linhas Aéreas – Automação e suporte Atlassian">
+                                <img src="./assets/img/LogoGol.png" alt="GOL Linhas Aéreas">
+                            </div>
+                            <div class="client-card" title="Unlimit – Desenvolvimento de automações e suporte ágil">
+                                <img src="./assets/img/LogoUnlimit.png" alt="Unlimit">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="cli-arrow next" aria-label="Próximos clientes" title="Próximo">
+                        <i class="uil uil-angle-right"></i>
+                    </button>
+                </div>
+            </section>
+
+            <!------------- Contact Box ---------------->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Entre em contato</h1>
+                    <span>Você tem um projeto em mente? Fale comigo por aqui.</span>
+                </div>
+
+                <div class="row contact-grid">
+                    <div class="col">
+                        <div class="contact-card">
+                            <div class="contact-card__head">
+                                <img class="contact-avatar" src="./assets/img/FotoPerfil.jpg"
+                                    alt="Foto de perfil de Naiara Cruz" />
+                                <h2>Me encontre <i class="uil uil-corner-right-down"></i></h2>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+                                    <i class="uil uil-envelope"></i>
+                                    <a href="mailto:naiaraaparecida95@gmail.com">naiaraaparecida95@gmail.com</a>
+                                </li>
+                                <li>
+                                    <i class="uil uil-whatsapp"></i>
+                                    <a target="_blank" rel="noopener"
+                                        href="https://wa.me/5511998797341?text=Oi%20Naiara,%20vim%20pelo%20portfolio.">
+                                        +55 (11) 99879-7341
+                                    </a>
+                                </li>
+                                <li>
+                                    <i class="uil uil-linkedin-alt"></i>
+                                    <a target="_blank" rel="noopener"
+                                        href="https://www.linkedin.com/in/naiara-cruz">LinkedIn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form id="contactForm" class="contact-form" novalidate>
+                            <div class="form-row">
+                                <label class="form-field">
+                                    <span class="form-label">Nome</span>
+                                    <input class="input-field" type="text" name="from_name" placeholder="Seu nome"
+                                        required />
+                                </label>
+                                <label class="form-field">
+                                    <span class="form-label">Email</span>
+                                    <input class="input-field" type="email" name="reply_to" placeholder="seu@email.com"
+                                        required />
+                                </label>
+                            </div>
+                            <label class="form-field">
+                                <span class="form-label">Telefone (opcional)</span>
+                                <input class="input-field" type="tel" name="phone" placeholder="(11) 90000-0000" />
+                            </label>
+                            <label class="form-field">
+                                <span class="form-label">Mensagem</span>
+                                <textarea class="textarea-field" name="message" rows="7"
+                                    placeholder="Conte-me um pouco sobre o projeto..." required></textarea>
+                            </label>
+                            <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off" />
+                            <div class="form-button">
+                                <button class="btn btn--primary" type="submit" id="contactSubmit">
+                                    Enviar <i class="uil uil-message"></i>
+                                </button>
+                            </div>
+                            <div id="formStatus" aria-live="polite" class="form-status" style="display:none"></div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!------------- Footer ---------------->
+        <footer>
+            <div class="top-footer">
+                <p>Naiara Cruz</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#clients">Clientes</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <a class="icon" href="https://www.linkedin.com/in/naiara-cruz" target="_blank" rel="noopener"
+                    aria-label="LinkedIn">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a class="icon" href="https://github.com/NaiaraAparecida" target="_blank" rel="noopener"
+                    aria-label="GitHub">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+                <a class="icon" href="https://difficult-index-c70.notion.site/naiara-portfolio?source=copy_link"
+                    target="_blank" rel="noopener" aria-label="Portfólio Notion">
+                    <i class="uil uil-folder-open"></i>
+                </a>
+            </div>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Naiara Cruz</a> - Todos os diretos
+            reservados</p>
+    </div>
+    </footer>
+    </div>
+
+
+    <!------------- Typing JS Link ---------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!------------- Scroll Reveal JS Link ---------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!------------- Main JS ---------------->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
