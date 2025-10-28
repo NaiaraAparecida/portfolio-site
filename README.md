@@ -56,27 +56,41 @@ Em EmailJS → Account → Security → Allowed origins, adicione:
 
 ---
 
-## 🤝 Contribuindo
-
-Issues e PRs são bem-vindos!
-
----
-
-## 📬 Contato
-
-LinkedIn: https://www.linkedin.com/in/naiara-cruz
-
-Email: naiaraaparecida95@gmail.com
-
----
-
 ## ▶️ Rodando local
 ```bash
 # clone
 git clone https://github.com/NaiaraAparecida/portfolio-site.git
 cd portfolio-site
+```
 
-# abra o index.html no navegador
-# (dica) com VS Code:
+- abra o index.html no navegador
+- (dica) com VS Code:
 code .
-# use a extensão "Live Server" ou apenas clique 2x no index.html
+- use a extensão "Live Server" ou apenas clique 2x no index.html
+
+---
+
+## 🤝 Contribuindo
+
+Contribuições são bem-vindas!
+Abra uma issue ou envie um pull request com suas melhorias.
+
+---
+
+## 📬 Contato
+
+LinkedIn: www.linkedin.com/in/naiara-cruz
+
+Email: naiaraaparecida95@gmail.com
+
+Portfólio: https://portfolio-site-naiara.netlify.app/
+
+---
+
+## 🧠 Autoria
+
+Desenvolvido por:
+
+👩‍💻 Naiara Aparecida da Silva Cruz
+
+💼 Desenvolvedora Front-End & UX/UI Designer
