@@ -988,6 +988,25 @@ footer {
     .cli-arrow.next {
         right: 8px;
     }
+    #about .row .col:nth-child(2) {
+        display: flex;
+        flex-direction: column;   /* empilha as três boxes */
+        align-items: stretch;
+        gap: 18px;
+    }
+    #about .skills-box {
+        width: 100%;
+        margin: 0;                /* remove margens laterais */
+    }
+
+    #about .skills-list {
+        gap: 6px;
+    }
+    #about .skills-list span {
+        font-size: 13px;
+        line-height: 1.15;
+        padding: 3px 8px;
+    }
 }
 
 /* Garantia contra scroll horizontal sem cortar sombras */
