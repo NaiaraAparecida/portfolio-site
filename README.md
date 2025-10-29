@@ -30,12 +30,26 @@ Projeto estático (HTML/CSS/JS) com **carrossel de projetos**, **seção de clie
 ## 🗂 Estrutura de pastas
 
 portfolio-site/
+
 ├── index.html
+
 └── assets/
-├── css/ └── style.css
-├── js/ └── main.js
-├── img/ └── (logos, FotoPerfil.jpg, favicon)
-└── cv/ └── Curriculo_NaiaraCruz.pdf
+
+├── css/ 
+
+└── style.css
+
+├── js/ 
+
+└── main.js
+
+├── img/ 
+
+└── (logos, FotoPerfil.jpg, favicon)
+
+└── cv/ 
+
+└── Curriculo_NaiaraCruz.pdf
 
 ---
 
